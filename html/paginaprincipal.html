@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/estiloPP.css">
+    <script src="/javascript/apexcharts.min.js"></script>
+    <link rel="shortcut icon" href="/logos/sgem.png" type="image/x-icon" />
+    <link rel="stylesheet" href="/css/btnOnOff.css">
+    <title>Consumo de Água</title>
+</head>
+<body>
+
+<header>
+    <a href="https://cess.ind.br/" target="_blank" rel="noopener noreferrer"><img class="logoC" src="/logos/LogoCESS130.png" alt="Logo CESS"></a>  
+    <p class="agua">Consumo de Água</p>
+    <a href="https://smguanabara.com.br/" target="_blank" rel="noopener noreferrer"><img class="logoG" src="/logos/logo-home-guanabara.png" alt="Supermercado Guanabara"></a></div>
+</header>
+<div id="caixapreta"> <!--botões que encaminham para pagina das lojas-->
+           <a href="brito.html"><button class="btn geral">Brito</button><br></a>
+           <a href="cassino.html"><button class="btn geral">Cassino</button><br></a>
+           <a href="cd_pelotas.html"><button class="btn geral">CD Pelotas</button><br></a>
+           <a href="domingos_de_almeida.html"><button class="btn geral">Domingos de Almeida</button><br></a>
+           <a href="dom_pedro_ii.html"><button class="btn geral">Dom Pedro II</button><br></a>
+           <a href="escritrio_central.html"><button class="btn geral">Escritório Central</button><br></a>
+           <a href="fabrica.html"><button class="btn geral">Fábrica</button><br></a>
+           <a href="hiper.html"><button class="btn geral">Hiper</button><br></a>
+           <a href="osorio.html"><button class="btn geral">Osório</button><br></a>
+           <a href="sao_lourenco.html"><button class="btn geral">São Lourenço</button><br></a>
+           <a href="shopping.html"><button class="btn geral">Shopping</button><br></a>
+           <a href="teixeira_junior.html"><button class="btn geral">Teixeira Júnior</button><br></a>
+           <a href="trevo.html"><button class="btn geral">Trevo</button><br></a>
+</div> 
+<div id="caixapreta2"> <!--Status de equipamentos e grafico de consumo acumulado anual-->
+            <div id="consumo_acumulado_anual"><p class="titulo_graficos">Consumo Acumulado Anual (m³)</p></div>
+            
+            <ul class="checkonoff">
+            <p>Equipamentos</p>
+            <div class="toggle-wrapper">
+                <label class="switch">
+                  <input type="checkbox" class="hidden-toggle" />
+                  <div class="slider">
+                    <div class="button"></div>
+                  </div>
+                </label>
+                <div class="unidade">
+                  Brito
+                </div>
+              </div>
+              <div class="toggle-wrapper">
+                <label class="switch">
+                  <input type="checkbox" class="hidden-toggle" />
+                  <div class="slider">
+                    <div class="button"></div>
+                  </div>
+                </label>
+                <div class="unidade">
+                  Cassino
+                </div>
+              </div>
+              <div class="toggle-wrapper">
+                <label class="switch">
+                  <input type="checkbox" class="hidden-toggle" />
+                  <div class="slider">
+                    <div class="button"></div>
+                  </div>
+                </label>
+                <div class="unidade">
+                  CD Pelotas
+                </div>
+              </div>
+              <div class="toggle-wrapper1">
+                <label class="switch">
+                  <input type="checkbox" class="hidden-toggle" />
+                  <div class="slider">
+                    <div class="button"></div>
+                  </div>
+                </label>
+                <div class="unidade">
+                  Domingos de Almeida
+                </div>
+              </div>
+              <div class="toggle-wrapper">
+                <label class="switch">
+                  <input type="checkbox" class="hidden-toggle" />
+                  <div class="slider">
+                    <div class="button"></div>
+                  </div>
+                </label>
+                <div class="unidade">
+                  Dom Pedro II
+                </div>
+              </div>
+              <div class="toggle-wrapper1">
+                <label class="switch">
+                  <input type="checkbox" class="hidden-toggle" />
+                  <div class="slider">
+                    <div class="button"></div>
+                  </div>
+                </label>
+                <div class="unidade">
+                  Escritorio Central
+                </div>
+              </div>
+              <div class="toggle-wrapper">
+                <label class="switch">
+                  <input type="checkbox" class="hidden-toggle" />
+                  <div class="slider">
+                    <div class="button"></div>
+                  </div>
+                </label>
+                <div class="unidade">
+                  Fábrica
+                </div>
+              </div>
+              <div class="toggle-wrapper">
+                <label class="switch">
+                  <input type="checkbox" class="hidden-toggle" />
+                  <div class="slider">
+                    <div class="button"></div>
+                  </div>
+                </label>
+                <div class="unidade">
+                  Hiper
+                </div>
+              </div>
+              <div class="toggle-wrapper">
+                <label class="switch">
+                  <input type="checkbox" class="hidden-toggle" />
+                  <div class="slider">
+                    <div class="button"></div>
+                  </div>
+                </label>
+                <div class="unidade">
+                  Osório
+                </div>
+              </div>
+              <div class="toggle-wrapper">
+                <label class="switch">
+                  <input type="checkbox" class="hidden-toggle" />
+                  <div class="slider">
+                    <div class="button"></div>
+                  </div>
+                </label>
+                <div class="unidade">
+                  São Lourenço
+                </div>
+              </div>
+              <div class="toggle-wrapper">
+                <label class="switch">
+                  <input type="checkbox" class="hidden-toggle" />
+                  <div class="slider">
+                    <div class="button"></div>
+                  </div>
+                </label>
+                <div class="unidade">
+                  Shopping
+                </div>
+              </div>
+              <div class="toggle-wrapper">
+                <label class="switch">
+                  <input type="checkbox" class="hidden-toggle" />
+                  <div class="slider">
+                    <div class="button"></div>
+                  </div>
+                </label>
+                <div class="unidade">
+                  Teixeira Júnior
+                </div>
+              </div>
+              <div class="toggle-wrapper">
+                <label class="switch">
+                  <input type="checkbox" class="hidden-toggle" />
+                  <div class="slider">
+                    <div class="button"></div>
+                  </div>
+                </label>
+                <div class="unidade">
+                  Trevo
+                </div>
+              </div>
+            </ul>      
+</div>
+<div id="titulo_gauges"><!--caixa titulo e gauges-->
+          <p class="titulo_graficos">Consumo Diário</p> <!--titulo dos gauges-->
+<div id="caixapreta3"><!--gauges-->
+          <div id="gauge_consumo_diario"><p class="tituloGCD">Brito</p></div>
+          <div id="gauge_consumo_diario1"><p class="tituloGCD">Cassino</p></div>
+          <div id="gauge_consumo_diario2"><p class="tituloGCD">CD Pelotas</p></div>
+          <div id="gauge_consumo_diario3"><p class="tituloGCD">Dom. de Almeida</p></div>
+          <div id="gauge_consumo_diario4"><p class="tituloGCD">Dom Pedro II</p></div>
+          <div id="gauge_consumo_diario5"><p class="tituloGCD">Escritório Central</p></div>            
+          <div id="gauge_consumo_diario6"><p class="tituloGCD">Fábrica</p></div>            
+          <div id="gauge_consumo_diario7"><p class="tituloGCD">Hiper</p></div>            
+          <div id="gauge_consumo_diario8"><p class="tituloGCD">Osório</p></div>            
+          <div id="gauge_consumo_diario9"><p class="tituloGCD">São Lourenço</p></div>            
+          <div id="gauge_consumo_diario0"><p class="tituloGCD">Shopping</p></div>            
+          <div id="gauge_consumo_diario01"><p class="tituloGCD">Teixeira Júnior</p></div>            
+          <div id="gauge_consumo_diario02"><p class="tituloGCD">Trevo</p></div>            
+</div>
+</div>
+<div id="caixapreta4"><!--grafico de indice de eficiencia-->
+    <div id="indice_de_eficiencia"><p class="titulo_graficos">Índice de Eficiência</p></div>
+</div>
+                               
+     <footer></footer>   
+</body>
+<script src="/javascript/consumo_acumulado_anual.js"></script>
+<script src="/javascript/indice_de_eficiencia.js"></script></div>
+<script src="/javascript/gauge_consumo_diario_hiper.js"></script>
+<script src="/javascript/gauge_consumo_diario_cassino.js"></script> 
+<script src="/javascript/gauge_consumo_diario_brito.js"></script>
+<script src="/javascript/gauge_consumo_diario_osorio.js"></script>
+<script src="/javascript/gauge_consumo_diario_trevo.js"></script>
+<script src="/javascript/gauge_consumo_diario_shopping.js"></script>
+<script src="/javascript/gauge_consumo_diario_teixeira_junior.js"></script>
+<script src="/javascript/gauge_consumo_diario_escritorio_central.js"></script>
+<script src="/javascript/gauge_consumo_diario_domingos_de_almeida.js"></script>
+<script src="/javascript/gauge_consumo_diario_dom_pedro_ii.js"></script>
+<script src="/javascript/gauge_consumo_diario_sao_lourenco.js"></script>
+<script src="/javascript/gauge_consumo_diario_cd_pelotas.js"></script>
+<script src="/javascript/gauge_consumo_diario_fabrica.js"></script>
+</html>
