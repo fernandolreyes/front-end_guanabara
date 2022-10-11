@@ -1,7 +1,7 @@
 let element = document.getElementById('indice_de_eficiencia');
 let opt = {
     chart: {
-        width: "100%",
+        width: "98%",
         height: 400,
         type: "area",
         foreColor: '#f1f1f1',

@@ -93,6 +93,44 @@ button :hover {
     margin-bottom: 25px;
    min-width: 620px;
 }
+#relatorioOK {
+    float: right;
+    margin-top: 22px;
+    margin-right: 30px;
+    cursor: pointer;
+
+}
+#relatorio {
+    float: right;
+    margin-right: 30px;
+    margin-left: 8px;
+    cursor: pointer;
+}
+#relatorio1 {
+    float: right;
+    margin-right: 30px;
+    margin-left: 8px;
+    cursor: pointer;
+}
+#caixapreta4 {
+    float: right;
+    background-color: #262d47;
+    margin-right: 40px;
+    border-radius: 10px;
+    box-shadow: 10px 10px 20px black;
+}
+
+.inicial {
+    display: flex;
+    float: right;
+    padding-left: 25px;
+    color: #f1f1f1;
+}
+.final {
+    color: #f1f1f1;
+    display: flex;
+    float: right;
+}
 .titulo {
     color: #f1f1f1;
     text-align: center;

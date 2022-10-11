@@ -66,17 +66,15 @@ button {
 }
 #caixapreta2 {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     position: relative;
     top: 0px;
-    margin-left: 43px;
-    margin-right: 38px;
-    
+    padding-right: 30px; 
 }
 #consumo_acumulado_anual {
     background-color: #262d47;
     border-radius: 10px;
-    width: 80%;
+    width: 83%;
     height: 620px;
     box-shadow: 10px 10px 20px black;
     margin-top: 16px;
@@ -96,15 +94,17 @@ button {
     margin-bottom: 20px;
     padding-bottom: 20px;
     border-radius: 10px;
-    width: 94%;
-    margin-left: 40px; 
+    width: 95%;
+    margin-left: 45px; 
     background-color: #262d47; 
     box-shadow: 10px 10px 20px black; 
 }
 #caixapreta4 {
     margin-top: 35px;
     display: flex;
-    margin-left: 43px;
+    margin-left: 40px;
+    margin-right: 20px;
+
 }
 #indice_de_eficiencia {
     background-color: #262d47;
@@ -135,91 +135,91 @@ p {
     width: 150px;
     box-shadow: 0px 0px 20px black;    
     border-radius: 10px;
-    margin: 7px;
+    margin: 9px;
     height: 50px;
 }
 #gauge_consumo_diario1 {
     width: 150px;
     box-shadow: 0px 0px 20px black;    
     border-radius: 10px;
-    margin: 7px;
+    margin: 9px;
     height: 50px;
 }
 #gauge_consumo_diario2 {
     width: 150px;
     box-shadow: 0px 0px 20px black;    
     border-radius: 10px;
-    margin: 7px;
+    margin: 9px;
     height: 50px;
 }
 #gauge_consumo_diario3 {
     width: 150px;
     box-shadow: 0px 0px 20px black;    
     border-radius: 10px;
-    margin: 7px;
+    margin: 9px;
     height: 50px;
 }
 #gauge_consumo_diario4 {
     width: 150px;
     box-shadow: 0px 0px 20px black;    
     border-radius: 10px;
-    margin: 7px;
+    margin: 9px;
     height: 50px;
 }
 #gauge_consumo_diario5 {
     width: 150px;
     box-shadow: 0px 0px 20px black;    
     border-radius: 10px;
-    margin: 7px;
+    margin: 9px;
     height: 50px;
 }
 #gauge_consumo_diario6 {
     width: 150px;
     box-shadow: 0px 0px 20px black;    
     border-radius: 10px;
-    margin: 7px;
+    margin: 9px;
     height: 50px;
 }
 #gauge_consumo_diario7 {
     width: 150px;
     box-shadow: 0px 0px 20px black;    
     border-radius: 10px;
-    margin: 7px;
+    margin: 9px;
     height: 50px;
 }
 #gauge_consumo_diario8 {
     width: 150px;
     box-shadow: 0px 0px 20px black;    
     border-radius: 10px;
-    margin: 7px;
+    margin: 9px;
     height: 50px;
 }
 #gauge_consumo_diario9 {
     width: 150px;
     box-shadow: 0px 0px 20px black;    
     border-radius: 10px;
-    margin: 7px;
+    margin: 9px;
     height: 50px;
 }
 #gauge_consumo_diario0 {
     width: 150px;
     box-shadow: 0px 0px 20px black;    
     border-radius: 10px;
-    margin: 7px;
+    margin: 9px;
     height: 50px;
 }
 #gauge_consumo_diario01 {
     width: 150px;
     box-shadow: 0px 0px 20px black;    
     border-radius: 10px;
-    margin: 7px;
+    margin: 9px;
     height: 50px;
 }
 #gauge_consumo_diario02 {
     width: 150px;
     box-shadow: 0px 0px 20px black;    
     border-radius: 10px;
-    margin: 7px;
+    margin: 9px;
     height: 50px;
 }
 footer {
@@ -279,14 +279,11 @@ footer {
         padding: 0px;
         margin-top: 5px;
         padding-left: 50px;
-    }
-      
+    }     
 }
-@media (max-width: 1366px) {
-    #consumo_acumulado_anual {
-    width: 72%; 
-    } 
-}
+
+
+
    
 
 

@@ -1,7 +1,7 @@
 let elemento = document.getElementById('consumo_acumulado_anual');
     let options = {
         chart: {
-            width: "100%",
+            width: "98%",
             height: 600,
             type: "bar",
             foreColor: '#f1f1f1',
