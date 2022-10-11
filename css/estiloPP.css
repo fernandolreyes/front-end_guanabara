@@ -74,7 +74,7 @@ button {
 #consumo_acumulado_anual {
     background-color: #262d47;
     border-radius: 10px;
-    width: 83%;
+    width: 73%;
     height: 620px;
     box-shadow: 10px 10px 20px black;
     margin-top: 16px;
@@ -279,7 +279,13 @@ footer {
         padding: 0px;
         margin-top: 5px;
         padding-left: 50px;
-    }     
+    }    
+}
+@media screen and (min-width: 1900px) {
+    #consumo_acumulado_anual {
+        width: 83%;
+    }
+    
 }
 
 
