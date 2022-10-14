@@ -72,12 +72,13 @@
   position: relative;
   top: 0px;
   background-color: #262d47;
-  border-radius: 10px;
+  border-radius: 15px;
   color: #f1f1f1;
   box-shadow: 10px 10px 20px black;
   line-height: 40px; 
   padding-right: 25px;  
-  height: 620px;
+  height: 600px;
+  margin-top: 27px;
 }
 @media (max-width: 1339px) {
   .checkonoff {

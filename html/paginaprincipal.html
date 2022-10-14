@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="/css/estiloPP.css">
     <script src="/javascript/apexcharts.min.js"></script>
+    <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
     <link rel="shortcut icon" href="/logos/sgem.png" type="image/x-icon" />
     <link rel="stylesheet" href="/css/btnOnOff.css">
     <title>Consumo de Água</title>
@@ -33,7 +34,7 @@
            <a href="trevo.html"><button class="btn geral">Trevo</button><br></a>
 </div> 
 <div id="caixapreta2"> <!--Status de equipamentos e grafico de consumo acumulado anual-->
-            <div id="consumo_acumulado_anual"><p class="titulo_graficos">Consumo Acumulado Anual (m³)</p></div>
+            <div id="consumo_acumulado_anual_google" style="width:75%; height:600px;"></div>
             
             <ul class="checkonoff">
             <p>Equipamentos</p>
@@ -201,13 +202,13 @@
 </div>
 </div>
 <div id="caixapreta4"><!--grafico de indice de eficiencia-->
-    <div id="indice_de_eficiencia"><p class="titulo_graficos">Índice de Eficiência</p></div>
+    <div id="indice_de_eficiencia_google" style="height: 400px;"></div>
 </div>
                                
-     <footer></footer>   
+     <footer></footer> 
 </body>
-<script src="/javascript/consumo_acumulado_anual.js"></script>
-<script src="/javascript/indice_de_eficiencia.js"></script></div>
+<script src="/javascript/consumo_acumulado_anual_google.js"></script>
+<script src="/javascript/indice_de_eficiencia_google.js"></script></div>
 <script src="/javascript/gauge_consumo_diario_hiper.js"></script>
 <script src="/javascript/gauge_consumo_diario_cassino.js"></script> 
 <script src="/javascript/gauge_consumo_diario_brito.js"></script>
