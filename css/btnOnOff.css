@@ -80,14 +80,25 @@
   height: 600px;
   margin-top: 27px;
 }
-@media (max-width: 1339px) {
+@media (max-width: 667px) {
   .checkonoff {
-    line-height: 35px;  
+    line-height: 30px;
+  }
+}
+@media (max-width: 414px) {
+  .checkonoff {
+    line-height: 30px;
+    height: 422px;
+    width: 60%;
   }
   .toggle-wrapper1 .unidade {
     margin-left: 5px;
     letter-spacing: 1px;
     font-size: 14px;
-    line-height: 30px;
+    line-height: 18px;
+  }
+  p {
+    margin-top: 10px;
+    margin-left: 25px;
   }
 }

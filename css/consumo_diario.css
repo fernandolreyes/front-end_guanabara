@@ -2,7 +2,8 @@
     background: white;
     width: 200px;
     height: 100px;
-    margin: 10px;
+    margin-top: 15px;
+    margin-left: 30px;
     border-radius: 10px;
     box-shadow: 10px 10px 20px black;    
 }
@@ -20,4 +21,20 @@
     color: black;
     text-align: center;
     border-top: solid 3px;
+}
+@media (max-width: 414px) {
+    .circulo {
+        width: 130px;
+        height: 80px;
+        margin-left: 17px;
+    }
+    .tituloGCD {
+        font-size: 15px;
+    }
+    .valorGCD {
+        font-size: 18px;
+        margin-top: 15px;
+        margin-right: 20px;
+        border-top: solid 2px;
+    }
 }
